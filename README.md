@@ -2,6 +2,14 @@
 AWS(성능비교)
 
 ## 1. t4g.xlarge vs t4g.micro
+
+가격 비교: 0.1664 USD vs 0.0104 USD
+
+| 인스턴스 유형 | 아키텍처 | CPU 사용 전 (%) | CPU(AWS 모니터링)(%) | 크롤링 처리 시간 (초) |
+|---------------|----------|------------------|------------------|----------------------|
+| t4g.xlarge    | Arm      | 0.0              | 1.49%             | 4.81s                |
+| t4g.micro    | Arm     | 0.0              | 6.87%             | 12.04s               |
+
 ### 크롤링 시간차
 
 <div style="display: flex;">
@@ -20,7 +28,16 @@ AWS(성능비교)
 
 - 가장 높은 수치를 기준으로 t4g.xlarge(1.49%)가 t4g.micro(6.87%)에 비해 4배 가량 cpu사용량이 적다 
 
-## 2. m6.2xlarge vs t3.2xlarge
+## 2. m6g.2xlarge vs t3.2xlarge
+
+가격 비교: 0.376 USD vs 0.416 USD
+
+| 인스턴스 유형 | 아키텍처 | CPU 사용 전 (%) | CPU(AWS 모니터링)(%) | 크롤링 처리 시간 (초) |
+|---------------|----------|------------------|------------------|----------------------|
+| m6g.2xlarge    | Arm      | 0.0              | 1.67%             | 4.20s               |
+| t3.2xlarge    | x86      | 0.0              | 0.877%             | 4.34s               |
+
+
 ### 크롤링 시간차
 
 <div style="display: flex;">
@@ -35,43 +52,29 @@ AWS(성능비교)
 ![image](https://github.com/yoonjaeuk/AWS/assets/52642461/7c472ff4-b75b-481f-83bd-84eb1b1ad98c)
 ![image](https://github.com/yoonjaeuk/AWS/assets/52642461/42e3c2b7-31e5-44fd-98a2-d57287c24d40)
 
-- m6.2xlarge(1.67%)가 t3.2xlarge(0.877%)보다 빠르다
+- 가장 높은 수치를 기준으로 t3.2xlarge(0.877%) m6.2xlarge(1.67%)에 비해 2배 가량 cpu사용량이 적다 
 
 
-1. t3.xlarge vs t4g.xlarge
+## 3. t3.xlarge vs t4.xlarge
 
-![image](https://github.com/yoonjaeuk/AWS/assets/52642461/ba08311c-e337-423d-a65c-e63e112e28c0) 
-- t4g_xlarge(mobalxterm)
-![image](https://github.com/yoonjaeuk/AWS/assets/52642461/6b86774f-dc51-40d4-9bb2-75962e96fb3e)
-- t4g_xlarge(aws_monitoring)
+가격 비교: 0.208 USD vs 0.1664 USD
 
-![image](https://github.com/yoonjaeuk/AWS/assets/52642461/3c4b1528-5a3b-4d3a-a8a5-03b6a6d8163a) 
-- t3_xlarge(mobalxterm)
-![image](https://github.com/yoonjaeuk/AWS/assets/52642461/e9f6da60-eae3-477b-9021-213b9fa5e9fb)
-- t3_xlarge(aws_monitoring)
+| 인스턴스 유형 | 아키텍처 | CPU 사용 전 (%) | CPU(AWS 모니터링)(%) | 크롤링 처리 시간 (초) |
+|---------------|----------|------------------|------------------|----------------------|
+| t3.xlarge    | Arm      | 0.0              | 0.783%             | 4.53s               |
+| t4.xlarge    | x86      | 0.0              | 1.49%             | 4.81s               |
 
 
+### 크롤링 시간차
 
+![image](https://github.com/yoonjaeuk/AWS/assets/52642461/5b107cec-a629-487f-b344-c65a7f2582cc)
+![image](https://github.com/yoonjaeuk/AWS/assets/52642461/699edc51-5f53-4183-b2b4-04756b39d888)
 
+- m6.2xlarge(4.20s)가 t3.2xlarge(4.34s)보다 빠르다
 
-2. t3.2xlarge vs t4g.micro
+### cpu 사용량
 
-![image](https://github.com/yoonjaeuk/AWS/assets/52642461/8020ffd3-ee89-4e59-8354-69c4341c9564) 
-- t3_2xlarge(mobalxterm)
-![image](https://github.com/yoonjaeuk/AWS/assets/52642461/031369c5-77a2-4b94-86fa-5c1e3c1dd447)
-- t3_2xlarge(aws_monitoring)
+![image](https://github.com/yoonjaeuk/AWS/assets/52642461/fae9e088-83e9-49d3-a083-10342442d2f1)
+![image](https://github.com/yoonjaeuk/AWS/assets/52642461/8e5d6742-414b-4f81-84df-21e2229c065e)
 
-
-![image](https://github.com/yoonjaeuk/AWS/assets/52642461/77e150cb-0cca-4af5-9f39-249e810a5b8d) 
-- t4g_micro(mobalxterm)
-![image](https://github.com/yoonjaeuk/AWS/assets/52642461/e986785a-42ac-4a27-83c5-79163980ad98)
-- t4g_micro(aws_monitoring)
-
-
-
-3. m6.2xlarge
-   
-
-
-
-
+- 가장 높은 수치를 기준으로 t3.2xlarge(0.877%) m6.2xlarge(1.67%)에 비해 2배 가량 cpu사용량이 적다
