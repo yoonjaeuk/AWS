@@ -71,10 +71,8 @@ AWS(성능비교)
 
 ### 크롤링 시간차
 
-<div style="display: flex;">
-  <img src="https://github.com/yoonjaeuk/AWS/raw/main/assets/52642461/5b107cec-a629-487f-b344-c65a7f2582cc" alt="Image 1" style="width: 50%;">
-  <img src="https://github.com/yoonjaeuk/AWS/raw/main/assets/52642461/699edc51-5f53-4183-b2b4-04756b39d888" alt="Image 2" style="width: 50%;">
-</div>
+![image](https://github.com/yoonjaeuk/AWS/assets/52642461/5b107cec-a629-487f-b344-c65a7f2582cc)
+![image](https://github.com/yoonjaeuk/AWS/assets/52642461/699edc51-5f53-4183-b2b4-04756b39d888)
 
 
 <br>
@@ -82,10 +80,8 @@ AWS(성능비교)
 
 ### cpu 사용량
 
-<div style="display: flex;">
-  <img src="https://github.com/yoonjaeuk/AWS/raw/main/assets/52642461/fae9e088-83e9-49d3-a083-10342442d2f1" alt="Image 1" style="width: 50%;">
-  <img src="https://github.com/yoonjaeuk/AWS/raw/main/assets/52642461/8e5d6742-414b-4f81-84df-21e2229c065e" alt="Image 2" style="width: 50%;">
-</div>
+![image](https://github.com/yoonjaeuk/AWS/assets/52642461/fae9e088-83e9-49d3-a083-10342442d2f1)
+![image](https://github.com/yoonjaeuk/AWS/assets/52642461/8e5d6742-414b-4f81-84df-21e2229c065e)
 
 
 <br>
