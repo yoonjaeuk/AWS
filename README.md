@@ -90,9 +90,10 @@ AWS(성능비교)
 ### cpu 사용량
 
 <div style="display: flex;">
-  <img src="https://github.com/yoonjaeuk/AWS/raw/main/assets/52642461/fae9e088-83e9-49d3-a083-10342442d2f1" alt="Image 1" style="width: 50%;">
-  <img src="https://github.com/yoonjaeuk/AWS/raw/main/assets/52642461/8e5d6742-414b-4f81-84df-21e2229c065e" alt="Image 2" style="width: 50%;">
+  <img src="https://github.com/yoonjaeuk/AWS/raw/main/assets/52642461/50f2bf38-6148-44ec-9bf9-a7c253b281d8" alt="Image 1" style="width: 50%;">
+  <img src="https://github.com/yoonjaeuk/AWS/raw/main/assets/52642461/c4c5f87d-868c-4efc-a6ea-2c1821bc1c1c" alt="Image 2" style="width: 50%;">
 </div>
+
 
 
 
