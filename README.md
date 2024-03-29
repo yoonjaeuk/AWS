@@ -49,8 +49,11 @@ AWS(성능비교)
 
 
 ### cpu 사용량
+
+<div style="display: flex;">
 ![image](https://github.com/yoonjaeuk/AWS/assets/52642461/7c472ff4-b75b-481f-83bd-84eb1b1ad98c)
 ![image](https://github.com/yoonjaeuk/AWS/assets/52642461/42e3c2b7-31e5-44fd-98a2-d57287c24d40)
+</div>
 
 - 가장 높은 수치를 기준으로 t3.2xlarge(0.877%) m6.2xlarge(1.67%)에 비해 2배 가량 cpu사용량이 적다 
 
@@ -67,14 +70,23 @@ AWS(성능비교)
 
 ### 크롤링 시간차
 
+<div style="display: flex;">
 ![image](https://github.com/yoonjaeuk/AWS/assets/52642461/5b107cec-a629-487f-b344-c65a7f2582cc)
 ![image](https://github.com/yoonjaeuk/AWS/assets/52642461/699edc51-5f53-4183-b2b4-04756b39d888)
+</div>
 
 - m6.2xlarge(4.20s)가 t3.2xlarge(4.34s)보다 빠르다
 
 ### cpu 사용량
 
+<div style="display: flex;">
 ![image](https://github.com/yoonjaeuk/AWS/assets/52642461/fae9e088-83e9-49d3-a083-10342442d2f1)
 ![image](https://github.com/yoonjaeuk/AWS/assets/52642461/8e5d6742-414b-4f81-84df-21e2229c065e)
+</div>
 
 - 가장 높은 수치를 기준으로 t3.2xlarge(0.877%) m6.2xlarge(1.67%)에 비해 2배 가량 cpu사용량이 적다
+
+
+ ### 보아야될 사항
+ 1. 코드를 돌릴 때마다 크롤링 처리 시간이 다르게 나옴
+ 2. htop 명령어를 입력할 떄마다 cpu 사용량이 다르게 나옴(AWS Monitoring이 조금 느리게 반영) 
