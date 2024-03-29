@@ -17,6 +17,9 @@ AWS(성능비교)
   <img src="https://github.com/yoonjaeuk/AWS/assets/52642461/cfe7ae70-c053-42d4-8c76-b6b0201e1d35" alt="Image 2" style="width: 50%;">
 </div>
 
+<br/>
+<br/>
+
 - t4g.xlarge(4.81s)가 t4g.micro(12.04s)보다 세배 가량 빠르다 
 
 ### cpu 사용량
@@ -25,6 +28,9 @@ AWS(성능비교)
   <img src="https://github.com/yoonjaeuk/AWS/assets/52642461/ba008a85-1ff0-4f98-905d-841b7d19129b" alt="Image 1" style="width: 50%;">
   <img src="https://github.com/yoonjaeuk/AWS/assets/52642461/26a265ec-4f3f-438d-80a1-b5418ce1eb90" alt="Image 2" style="width: 50%;">
 </div>
+
+<br/>
+<br/>
 
 - 가장 높은 수치를 기준으로 t4g.xlarge(1.49%)가 t4g.micro(6.87%)에 비해 4배 가량 cpu사용량이 적다 
 
@@ -45,6 +51,9 @@ AWS(성능비교)
   <img src="https://github.com/yoonjaeuk/AWS/assets/52642461/efb9a701-7bfc-43cb-881a-c33a266cc018" alt="Image 2" style="width: 50%;">
 </div>
 
+<br/>
+<br/>
+
 - m6.2xlarge(4.20s)가 t3.2xlarge(4.34s)보다 빠르다 
 
 
@@ -55,6 +64,8 @@ AWS(성능비교)
   <img src="https://github.com/yoonjaeuk/AWS/assets/52642461/42e3c2b7-31e5-44fd-98a2-d57287c24d40" alt="Image 2" style="width: 50%;">
 </div>
 
+<br/>
+<br/>
 
 - 가장 높은 수치를 기준으로 t3.2xlarge(0.877%) m6.2xlarge(1.67%)에 비해 2배 가량 cpu사용량이 적다 
 
@@ -71,20 +82,28 @@ AWS(성능비교)
 
 ### 크롤링 시간차
 
-![image](https://github.com/yoonjaeuk/AWS/assets/52642461/5b107cec-a629-487f-b344-c65a7f2582cc)
-![image](https://github.com/yoonjaeuk/AWS/assets/52642461/699edc51-5f53-4183-b2b4-04756b39d888)
+<div style="display: flex;">
+  <img src="https://github.com/yoonjaeuk/AWS/assets/52642461/5b107cec-a629-487f-b344-c65a7f2582cc" alt="Image 1" style="width: 50%;">
+  <img src="https://github.com/yoonjaeuk/AWS/assets/52642461/699edc51-5f53-4183-b2b4-04756b39d888" alt="Image 2" style="width: 50%;">
+</div>
 
+<br/>
+<br/>
 
-<br>
 - m6.2xlarge(4.20s)가 t3.2xlarge(4.34s)보다 빠르다
 
 ### cpu 사용량
 
-![image](https://github.com/yoonjaeuk/AWS/assets/52642461/fae9e088-83e9-49d3-a083-10342442d2f1)
-![image](https://github.com/yoonjaeuk/AWS/assets/52642461/8e5d6742-414b-4f81-84df-21e2229c065e)
+<div style="display: flex;">
+  <img src="https://github.com/yoonjaeuk/AWS/raw/main/assets/52642461/fae9e088-83e9-49d3-a083-10342442d2f1" alt="Image 1" style="width: 50%;">
+  <img src="https://github.com/yoonjaeuk/AWS/raw/main/assets/52642461/8e5d6742-414b-4f81-84df-21e2229c065e" alt="Image 2" style="width: 50%;">
+</div>
 
 
-<br>
+
+<br/>
+<br/>
+
 - 가장 높은 수치를 기준으로 t3.2xlarge(0.877%) m6.2xlarge(1.67%)에 비해 2배 가량 cpu사용량이 적다
 
 
